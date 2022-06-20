@@ -4,10 +4,6 @@ header {
     align-items: center;
 }
 
-img {
-    width: 25%;
-}
-
 .buscador {
     width: 30%;
     line-height: 1.5rem;

@@ -1,13 +1,13 @@
 import React from "react";
-import logo from "../../assets/logo2.PNG"
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import "./Header.css"
+import Logo from "../../Components/Logo/logo";
 
 
 const Header = () => {
  return (
     <header>
-        <img src={logo} alt="Logo de MusicScope"/>
+            <Logo />
         <input id="search" type="text" className="buscador" placeholder="Buscar producto"/>
         <nav>
             <select className="categorias">

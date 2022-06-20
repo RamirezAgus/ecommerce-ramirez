@@ -1,0 +1,9 @@
+
+.logo-header {
+    display: flex;
+}
+
+.logo-header img {
+    
+    width: 80%;
+}
