@@ -1,7 +1,7 @@
 import React from "react";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import "./Header.css"
 import Logo from "../../Components/Logo/logo";
+import CartWidget from "../CartWidget/carrito";
 
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
                 <option>Efectos</option>
             </select>
         </nav>
-        <ShoppingCartIcon color="disabled" fontSize="large" />
+        <CartWidget />
     </header>
  )
 };
